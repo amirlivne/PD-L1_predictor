@@ -1,6 +1,3 @@
-import sys
-sys.path.append('/home/sgils/.local/lib/python3.8/site-packages')
-
 from torch.utils.data import Dataset
 import cv2
 import torchvision.transforms as transforms

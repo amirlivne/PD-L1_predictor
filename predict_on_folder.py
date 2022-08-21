@@ -1,7 +1,3 @@
-import sys
-sys.path.append('/home/sgils/.local/lib/python3.8/site-packages')
-sys.path.append('/home/sgils/.local/lib/python3.7/site-packages')
-
 from tqdm import tqdm
 import torch
 from torch.autograd import Variable
