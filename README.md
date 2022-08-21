@@ -2,10 +2,16 @@ DL-based-PDL1-predictor
 -----
 Pre-trained model to predict PD-L1 status based on IHC scans from H&E images, as described in the paper Deep learning-based image analysis predicts PDL1 status from H&E-stained histopathology images in breast cancer.
 
-The supplied code infers the PD-L1 status from JPEG images. 
-The status is given by a probability score in range `[0,1]`.  A sample folder with several images is available under `data_examples`.
 
 ![Model Architecture](https://github.com/amirlivne/amirlivne.github.io/blob/main/PDL%D6%B91_arch.png?raw=true)
+
+
+The supplied code infers the PD-L1 status from JPEG images. 
+The status is given by a probability score in range `[0,1]`.  
+
+Examples for Hematoxylin and Eosin images are available under `data_examples`.
+
+![Model Architecture](https://github.com/amirlivne/amirlivne.github.io/blob/main/H&E_images.png?raw=true)
 
 
 Usage
