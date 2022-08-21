@@ -5,9 +5,9 @@ Pre-trained model to predict PD-L1 status based on IHC scans from H&E images, as
 The supplied code infers the PD-L1 status from JPEG images. 
 The status is given by a probability score in range `[0,1]`.  A sample folder with several images is available under `data_examples`.
 
-[Model Architecture](amirlivne.github.com/PDLֹ1_arch.png "Hematoxylin and Eosin TMA")
+[Model Architecture](username.github.com/amirlivne.github.io/PDLֹ1_arch.png "Hematoxylin and Eosin TMA")
 
-
+https://github.com/amirlivne/amirlivne.github.io/blob/main/PDL%D6%B91_arch.png?raw=true
 Usage
 -----
 
