@@ -1,3 +1,7 @@
+![py_badge](https://camo.githubusercontent.com/44da37f0f02bf104f0650fa5f2c754ed3f6166066c9210f31bacb9e63d60736e/68747470733a2f2f696d672e736869656c64732e696f2f707970692f707976657273696f6e732f70796261646765732e737667) [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
+
+
 DL-based-PDL1-predictor
 -----
 Pre-trained model to predict PD-L1 status based on IHC scans from H&E images, as described in the paper "Deep Learning Based Image Analysis Predicts PDL1 Status From H&E-Stained Histopathology Images in Breast Cancer".
