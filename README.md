@@ -60,3 +60,7 @@ Requirements
 To install the requirements, use:
     
     $ pip3 install -r requirements.txt
+    
+Or:
+
+    $ bash install_pytorch_env.sh
