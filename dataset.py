@@ -1,3 +1,6 @@
+import sys
+sys.path.append('/home/sgils/.local/lib/python3.8/site-packages')
+
 from torch.utils.data import Dataset
 import cv2
 import torchvision.transforms as transforms
@@ -19,7 +22,6 @@ class TMADataset(Dataset):
         super(TMADataset, self).__init__()
         self.images_root_dir = images_root_dir
         self.target_size = 512
-        self.true_num_images = 0
         self.images = glob.glob(images_root_dir + '/**/*.jpg', recursive=True)
         print(f'Found {len(self.images)} .jpg images')
 
