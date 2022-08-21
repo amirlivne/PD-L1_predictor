@@ -21,7 +21,7 @@ Usage
         predict_on_folder.py [arguments] [options]
     
     Arguments:
-       images_root_dir        The path to the directory containing the .jpg images for inference.
+       <images_root_dir>        The path to the directory containing the .jpg images for inference.
 
     Options:
         --model_path          The path to the pre-trained model for inference (a '.pt' file). 
