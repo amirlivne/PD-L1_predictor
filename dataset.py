@@ -11,7 +11,7 @@ normalize = transforms.Compose([
 
 
 class TMADataset(Dataset):
-    """PyTorch dataset for HDF5 files generated with `get_data.py`."""
+    """PyTorch dataset - loading jpg images from a root directory."""
 
     def __init__(self,
                  images_root_dir: str,
@@ -23,7 +23,7 @@ class TMADataset(Dataset):
         print(f'Found {len(self.images)} .jpg images')
 
     def __len__(self):
-        """Return no. of samples in HDF5 file."""
+        """Return no. of samples."""
         return len(self.images)
 
     def __getitem__(self, index: int):
